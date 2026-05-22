@@ -22,10 +22,10 @@ $ cat ~/.ssh/id_ed25519.pub
 ```
 
 ### GitHubに公開鍵を登録
-表示された公開鍵の値は、GitHubの自分のアカウントのページで
-Settings > SSH and GPG keys を開く
-SSH Keys > [New Key] 押下
-適当な名前を付けて公開鍵を貼り付けて登録完了
+- GitHubの自分のアカウントのページで Settings > SSH and GPG keys を開く
+- SSH Keys > [New Key] 押下
+- 適当な名前を付けて公開鍵を貼り付けて登録完了
+
 
 ### Ubuntuのコンソールを開いて以下のコマンドでリポジトリをクローンする
 ```sh
