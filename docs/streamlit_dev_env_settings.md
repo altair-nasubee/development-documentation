@@ -9,7 +9,7 @@ WSL上でPython（Streamlit）のプロジェクトを開発
 - Streamlitの安定動作のために Python 3.11 を使用する
 
 ## 開発環境構築手順
-### Ubuntuのターミナルを開いてSSHキーを作成
+### Ubuntuのターミナルを開いてSSHキーを作成（作成済みならスキップ）
 ```sh
 # {your email}の部分を自分のものに置換して実行する
 $ ssh-keygen -t ed25519 -C "{your email}"
@@ -21,7 +21,7 @@ $ cat ~/.ssh/id_ed25519.pub
 # 表示された公開鍵をコピーしておく
 ```
 
-### GitHubに公開鍵を登録
+### GitHubに公開鍵を登録（登録済みならスキップ）
 - GitHubの自分のアカウントのページで Settings > SSH and GPG keys を開く
 - SSH Keys > [New Key] 押下
 - 適当な名前を付けて公開鍵を貼り付けて登録完了
