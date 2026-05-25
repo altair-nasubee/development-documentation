@@ -87,6 +87,9 @@ sudo apt update
 # 4. Python 3.11本体と、3.11専用のvenvパッケージを追加インストール
 sudo apt install -y python3.11 python3.11-venv
 
+# ビルド用パッケージ（hnswlib などで使用）も追加
+sudo apt install -y python3.11-dev build-essential
+
 # この状態だと python --version は失敗する
 #   python3 --version (Python 3.12.3)
 #   や
@@ -94,7 +97,7 @@ sudo apt install -y python3.11 python3.11-venv
 #   を使う必要あり。
 
 # 仮想環境を作りたいディレクトリに移動
-cd ~/work/streamlit-llm-app
+cd ~/work/myProject
 
 # .venvフォルダにpython3.11の仮想環境構築
 python3.11 -m venv .venv
