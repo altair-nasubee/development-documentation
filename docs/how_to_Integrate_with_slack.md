@@ -32,6 +32,8 @@ From scratch が安全。
 - あとは、Slackと連携したアプリでSLACK_USER_TOKENを使用すればアクセスできる。
 ```python
 """Slack連携サンプルコード
+- 実行条件
+    - .envファイルにSLACK_USER_TOKENをかいておき、initialize_dotenv()で環境変数に読み込む
 """
 # OpenAI API 共通処理
 from ..common.prepare_env import initialize_dotenv
