@@ -28,9 +28,6 @@ From scratch が安全。
     | channels:history  | app が連携されたpublicチャンネルのメッセージなどのコンテンツにアクセスする |
 - OAuth Tokens > [Install to xxxxxx] を押して、許可する
 - OAuth Tokens > Bot User OAuth Token の値をコピー（`xoxb-` で始まる文字列。各自の値を貼り付ける）
-```
-<YOUR_BOT_USER_OAUTH_TOKEN>
-```
 - コピーした値で環境変数SLACK_USER_TOKENを設定する
 - あとは、Slackと連携したアプリでSLACK_USER_TOKENを使用すればアクセスできる。
 ```python
