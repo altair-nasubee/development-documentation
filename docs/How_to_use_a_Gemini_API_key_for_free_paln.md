@@ -12,7 +12,9 @@ Google Developers （またはGoogle AI Studio）
 https://aistudio.google.com/prompts/new_chat
 
 - アカウントの切り替え
-画面左下のSettingsの下にアカウント名が表示されているのでGoogle Workspaceのアカウントに切り替える
+画面左下のSettingsの下にアカウント名が表示されていて、Googleアカウントを切り替えられる。
+Google Workspaceのアカウントでは、APIキーが使用不可と表示されていた。
+無料枠として使う方法がわからないので、今回はプライベートのGoogleアカウントでAPIキーを取得した。
 
 - セキュリティについて
 入力情報をAIに学習させないようにしたり、情報を外部に参照されないようにしたいが、
